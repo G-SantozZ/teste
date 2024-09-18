@@ -47,7 +47,6 @@ if uploaded_file is not None:
     else:
         df_filtered = df  # Mostra todos os dados se "Todos" for selecionado
 
-    # Dividindo a interface em colunas
     col1, col2 = st.columns(2)
     col3, col4 = st.columns(2)
 
